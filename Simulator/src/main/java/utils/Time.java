@@ -1,4 +1,4 @@
-package time.manage;
+package utils;
 
 public class Time {
 	
@@ -11,6 +11,10 @@ public class Time {
 	
 	public void step() {
 		time = time + tau;
+	}
+	
+	public long getTime() {
+		return this.time;
 	}
 	
 	
