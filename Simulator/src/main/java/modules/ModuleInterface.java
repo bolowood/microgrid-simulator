@@ -10,5 +10,6 @@ package modules;
 public interface ModuleInterface {
 	
 	public boolean manage();
+	public boolean controlIfRemove();
 
 }
