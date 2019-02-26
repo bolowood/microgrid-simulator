@@ -1,17 +1,17 @@
 package events;
 
+import utils.EventType;
+
 public class Event {
 	
-	private String eventType;
+	private EventType eventType;
 	
-	public String getEventType() {
+	public EventType getEventType() {
 		return eventType;
 	}
-
-	public void setEventType(String eventType) {
-		this.eventType = eventType;
+	
+	public void setEventType(EventType type) {
+		this.eventType=type;
 	}
-	
-	
 	
 }
